@@ -13,6 +13,8 @@ asttokens==2.4.1
 decorator==5.1.1
     # via ipdb
     # via ipython
+dill==0.3.8
+    # via wipeout
 exceptiongroup==1.2.2
     # via ipython
 executing==2.0.1
@@ -51,6 +53,8 @@ tblib==3.0.0
     # via wipeout
 tomli==2.0.1
     # via ipdb
+traceback-with-variables==2.0.4
+    # via wipeout
 traitlets==5.14.3
     # via ipython
     # via matplotlib-inline

@@ -1,0 +1,31 @@
+[project]
+name = "wipeout"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "Ben Rutter", email = "benrutter@posteo.net" }
+]
+dependencies = [
+    "rich>=13.7.1",
+    "tblib>=3.0.0",
+    "traceback-with-variables>=2.0.4",
+    "dill>=0.3.8",
+]
+readme = "README.md"
+requires-python = ">= 3.10"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = [
+    "ipdb>=0.13.13",
+]
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["wipeout"]

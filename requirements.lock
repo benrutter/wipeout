@@ -8,6 +8,8 @@
 #   with-sources: false
 
 -e file:.
+dill==0.3.8
+    # via wipeout
 markdown-it-py==3.0.0
     # via rich
 mdurl==0.1.2
@@ -17,4 +19,6 @@ pygments==2.18.0
 rich==13.7.1
     # via wipeout
 tblib==3.0.0
+    # via wipeout
+traceback-with-variables==2.0.4
     # via wipeout
