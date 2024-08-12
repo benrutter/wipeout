@@ -1,0 +1,2 @@
+# wipeout
+Savable/debuggable exceptions
