@@ -1,22 +1,21 @@
 [project]
 name = "wipeout"
-version = "0.1.0"
-description = "Add your description here"
-authors = [
-    { name = "Ben Rutter", email = "benrutter@posteo.net" }
-]
+version = "0.0.1"
+description = "Tooling for debugging later"
 dependencies = [
     "rich>=13.7.1",
     "tblib>=3.0.0",
     "traceback-with-variables>=2.0.4",
     "dill>=0.3.8",
+    "typer>=0.12.3",
+    "fsspec>=2024.6.1",
 ]
 readme = "README.md"
 requires-python = ">= 3.10"
 
 [build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
 
 [tool.rye]
 managed = true
